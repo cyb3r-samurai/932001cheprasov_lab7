@@ -1,0 +1,43 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px black solid ;
+    position:absolute;      
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50px;
+    border: 1px black solid;
+    position: absolute;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid;
+	border-right: 50px solid;
+	border-bottom: 100px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: blue;
+    position: absolute;
+}
+button{
+    display: inline-block;
+}
+input{
+    display: block;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+.highlight {
+    background-color: yellow;
+}
+.highlighttg{
+    
+}
